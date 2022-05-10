@@ -1,6 +1,6 @@
 name: Reward
 version: '${project.version}'
-main: kloon.boat.reward
+api-version: 1.16
+main: kloon.boat.Reward
 commands:
   kloonboat:
-
