@@ -33,7 +33,7 @@ public class KloonCMD implements CommandExecutor {
 
             assert player != null;
             if (player.hasPermission("minikloon.reward")) {
-                ItemStack itemStack = new ItemStack(Material.OAK_BOAT);
+                ItemStack itemStack = new ItemStack(Material.BOAT);
 
                 ItemMeta itemMeta = itemStack.getItemMeta();
                 itemMeta.setDisplayName(ChatColor.RED + "Kloonboat");
