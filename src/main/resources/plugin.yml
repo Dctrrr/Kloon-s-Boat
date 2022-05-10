@@ -1,0 +1,6 @@
+name: Reward
+version: '${project.version}'
+main: kloon.boat.reward
+commands:
+  kloonboat:
+
