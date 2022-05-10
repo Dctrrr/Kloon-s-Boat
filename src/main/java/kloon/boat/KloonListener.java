@@ -11,13 +11,13 @@ public class KloonListener implements Listener {
 
     @EventHandler
     public void onBlockPlace(BlockPlaceEvent event) {
-        if (event.getBlock().getType() == Material.OAK_BOAT)
+        if (event.getBlock().getType() == Material.BOAT)
             event.setCancelled(true);
     }
 
     @EventHandler
     public void onItemDrop(PlayerDropItemEvent event) {
-        if (event.getItemDrop().getItemStack().getType() == Material.OAK_BOAT)
+        if (event.getItemDrop().getItemStack().getType() == Material.BOAT)
             event.setCancelled(true);
     }
 }
