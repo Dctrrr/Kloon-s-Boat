@@ -32,7 +32,7 @@ public class KloonCMD implements CommandExecutor {
             }
 
             assert player != null;
-            if (player.hasPermission("minikloon.reward")) {
+            if (player.hasPermission("specialgift.kloonboat")) {
                 ItemStack itemStack = new ItemStack(Material.BOAT);
 
                 ItemMeta itemMeta = itemStack.getItemMeta();
